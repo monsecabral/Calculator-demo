@@ -13,7 +13,7 @@
 <body>
 
     <header>
-<h1>Calculator</h1>
+        <h1>Calculator</h1>
     </header>
 
     <main>
@@ -22,28 +22,32 @@
 
             <div class="row">
                 <div class="col">
-                    <div>
-                        <label for="number1Field">Number 1:</label>
-                        <input id="number1Field" type="text">                        
-                    </div>
-                    <div>
-                        <label for="number2Field">Number 2:</label>
-                        <input id="number2Field" type="text">                        
-                    </div>
-                    <div>
-                        <input id="addBtn" type="button" value="Add">
-                        <input id="subtractBtn" type="button" value="Subtract">
-                        <input id="multiplyBtn" type="button" value="Multiply">
-                        <input id="divideBtn" type="button" value="Divide">
-                    </div>     
-                    <div>
-                        <label for="answerField">Answer:</label>
-                        <input id="answerField" type="text" readonly>                        
+                    <div id="theCalculator">
+                        <div class="mb-3">
+                            <label for="number1Field">Number 1:</label>
+                            <input id="number1Field" type="text">
+                        </div>
+                        <div>
+                            <label for="number2Field">Number 2:</label>
+                            <input id="number2Field" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <input id="addBtn" type="button" value="Add">
+                            <input id="subtractBtn" type="button" value="Subtract">
+                            <input id="multiplyBtn" type="button" value="Multiply">
+                            <input id="divideBtn" type="button" value="Divide">
+                        </div>
+                        <div class="mb3">
+                            <label for="answerField">Answer:</label>
+                            <input id="answerField" type="text" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <p id="messagePara"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
 
     </main>
 
